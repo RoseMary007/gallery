@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="themeBtn">🌙 Dark Mode</button>
+
+    <div class="gallery-container">
+
+        <!-- Main Image Section -->
+        <div class="main-image-container">
+
+            <button class="nav-btn prev" onclick="prevImage()">
+                &#10094;
+            </button>
+
+            <img
+                id="mainImage"
+                src=""
+                alt="Gallery Image"
+            >
+
+            <button class="nav-btn next" onclick="nextImage()">
+                &#10095;
+            </button>
+
+        </div>
+
+        <!-- Thumbnail Images -->
+        <div
+            id="thumbnails"
+            class="thumbnails"
+        >
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
