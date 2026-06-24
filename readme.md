@@ -16,11 +16,7 @@ A responsive and interactive Image Gallery built using **HTML**, **CSS**, and **
 
 ---
 
-## 📸 Screenshot
 
-![Image Gallery Preview](screenshot.png)
-
----
 
 ## 🛠️ Technologies Used
 
@@ -69,19 +65,5 @@ image-gallery/
 - Event Listeners
 - DOM Manipulation
 - setInterval()
-
----
-
-## ⚙️ How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/image-gallery.git
-```
-
-2. Open the project folder.
-
-3. Launch `index.html` in your browser.
 
 ---
